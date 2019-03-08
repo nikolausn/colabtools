@@ -17,8 +17,8 @@ from ipykernel import ipkernel
 from ipykernel.jsonutil import json_clean
 from IPython.utils.tokenutil import token_at_cursor
 import six
-from google.colab import _shell
-from google.colab import _shell_customizations
+from colabtools.google.colab import _shell
+from colabtools.google.colab import _shell_customizations
 
 
 class Kernel(ipkernel.IPythonKernel):

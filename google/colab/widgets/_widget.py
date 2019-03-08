@@ -19,10 +19,10 @@ from __future__ import print_function
 
 import contextlib
 
-from google.colab import errors
-from google.colab import output
-from google.colab.output import _tags
-from google.colab.output import _util
+from colabtools.google.colab import errors
+from colabtools.google.colab import output
+from colabtools.google.colab.output import _tags
+from colabtools.google.colab.output import _util
 
 # pylint: disable=invalid-name
 WidgetException = errors.WidgetException

@@ -19,7 +19,7 @@ from __future__ import print_function
 
 import contextlib
 import six
-from google.colab.output import _js_builder
+from colabtools.google.colab.output import _js_builder
 
 _jsapi = _js_builder.Js('google.colab')
 

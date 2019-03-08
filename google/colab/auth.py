@@ -30,8 +30,8 @@ import time as _time
 
 import google.auth as _google_auth
 import google.auth.transport.requests as _auth_requests
-from google.colab import errors as _errors
-from google.colab import output as _output
+from colabtools.google.colab import errors as _errors
+from colabtools.google.colab import output as _output
 
 __all__ = ['authenticate_user']
 

@@ -17,7 +17,7 @@ import re
 import textwrap
 
 from IPython.utils import coloransi
-from google.colab import _ipython as ipython
+from colabtools.google.colab import _ipython as ipython
 
 
 _GREEN = coloransi.TermColors.Green

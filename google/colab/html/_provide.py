@@ -17,7 +17,7 @@
 Example inside Colab:
 
 # First, create a resource in Python
-  from google.colab import html
+  from colabtools.google.colab import html
   ref = html.create_resource(content='hello world')
 
   # Next, execute javascript code that uses that resource
@@ -47,7 +47,7 @@ import six
 import tornado.web
 import tornado.wsgi
 
-from google.colab.html import _background_server
+from colabtools.google.colab.html import _background_server
 
 
 @six.add_metaclass(abc.ABCMeta)

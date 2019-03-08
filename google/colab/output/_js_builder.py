@@ -22,8 +22,8 @@ import functools
 import json
 import time
 import uuid
-from google.colab.output import _js
-from google.colab.output import _publish
+from colabtools.google.colab.output import _js
+from colabtools.google.colab.output import _publish
 
 
 # Different ways of creating javascript

@@ -14,8 +14,8 @@
 """Colab helpers for interacting with JavaScript in outputframes."""
 import json
 
-from google.colab import _ipython
-from google.colab import _message
+from colabtools.google.colab import _ipython
+from colabtools.google.colab import _message
 
 _json_decoder = json.JSONDecoder()
 

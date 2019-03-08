@@ -21,8 +21,8 @@ from notebook.base import handlers
 
 import tornado
 
-from google.colab import drive
-from google.colab._serverextension import _resource_monitor
+from colabtools.google.colab import drive
+from colabtools.google.colab._serverextension import _resource_monitor
 
 _XSSI_PREFIX = ")]}'\n"
 

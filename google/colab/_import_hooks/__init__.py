@@ -13,7 +13,7 @@
 # limitations under the License.
 """Colab import customizations to the IPython runtime."""
 
-from google.colab._import_hooks import _altair
+from colabtools.google.colab._import_hooks import _altair
 
 
 def _register_hooks():

@@ -2,10 +2,10 @@
 import contextlib
 
 from IPython import display
-from google.colab.output import _publish
+from colabtools.google.colab.output import _publish
 
-from google.colab.output import _util
-from google.colab.widgets import _widget
+from colabtools.google.colab.output import _util
+from colabtools.google.colab.widgets import _widget
 
 
 class Grid(_widget.OutputAreaWidget):

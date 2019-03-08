@@ -25,9 +25,9 @@ from ipykernel import zmqshell
 from IPython.core import interactiveshell
 from ipython_genutils import py3compat
 
-from google.colab import _pip
-from google.colab import _shell_customizations
-from google.colab import _system_commands
+from colabtools.google.colab import _pip
+from colabtools.google.colab import _shell_customizations
+from colabtools.google.colab import _system_commands
 
 
 # The code below warns the user that a runtime restart is necessary if a

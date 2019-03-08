@@ -18,6 +18,6 @@ or matplotlib) into specific part of the widget, such as individual tab or
 grid's cell. This allows to build complex interactive outputs, using libraries
 that are not even aware of the widget's existence.
 """
-from google.colab.widgets._grid import create_grid
-from google.colab.widgets._grid import Grid
-from google.colab.widgets._tabbar import TabBar
+from colabtools.google.colab.widgets._grid import create_grid
+from colabtools.google.colab.widgets._grid import Grid
+from colabtools.google.colab.widgets._tabbar import TabBar

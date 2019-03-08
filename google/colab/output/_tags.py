@@ -25,7 +25,7 @@ import uuid
 import IPython
 from IPython import display
 import six
-from google.colab import _ipython as ipython
+from colabtools.google.colab import _ipython as ipython
 
 
 def _add_or_remove_tags(tags_to_add=(), tags_to_remove=()):
@@ -132,7 +132,7 @@ def clear(wait=False, output_tags=()):
   """Clears all output marked with a superset of a given output_tags.
 
   For example:
-    from google.colab import output
+    from colabtools.google.colab import output
     with output.use_tag('conversation'):
       with output.use_tag('introduction'):
          print 'Hello'

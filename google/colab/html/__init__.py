@@ -13,7 +13,7 @@
 # limitations under the License.
 """Colabs html package."""
 # pylint: disable=g-multiple-import
-from google.colab.html import _provide
-from google.colab.html._html import Element
+from colabtools.google.colab.html import _provide
+from colabtools.google.colab.html._html import Element
 
 create_resource = _provide.create

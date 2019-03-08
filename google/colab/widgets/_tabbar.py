@@ -15,9 +15,9 @@
 import contextlib
 import six
 
-from google.colab.output import _publish
-from google.colab.output import _js_builder as js
-from google.colab.widgets import _widget
+from colabtools.google.colab.output import _publish
+from colabtools.google.colab.output import _js_builder as js
+from colabtools.google.colab.widgets import _widget
 
 
 class TabBar(_widget.OutputAreaWidget):

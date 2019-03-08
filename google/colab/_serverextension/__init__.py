@@ -24,7 +24,7 @@ try:
   # pylint: disable=g-import-not-at-top
   from notebook import utils
   from notebook.base import handlers
-  from google.colab._serverextension import _handlers
+  from colabtools.google.colab._serverextension import _handlers
 except ImportError:
   pass
 

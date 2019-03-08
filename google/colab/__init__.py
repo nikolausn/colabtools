@@ -17,15 +17,15 @@ from __future__ import absolute_import as _
 from __future__ import division as _
 from __future__ import print_function as _
 
-from google.colab import _import_hooks
-from google.colab import _shell_customizations
-from google.colab import _system_commands
-from google.colab import auth
-from google.colab import drive
-from google.colab import files
-from google.colab import output
-from google.colab import snippets
-from google.colab import widgets
+from colabtools.google.colab import _import_hooks
+from colabtools.google.colab import _shell_customizations
+from colabtools.google.colab import _system_commands
+from colabtools.google.colab import auth
+from colabtools.google.colab import drive
+from colabtools.google.colab import files
+from colabtools.google.colab import output
+from colabtools.google.colab import snippets
+from colabtools.google.colab import widgets
 
 __all__ = ['auth', 'drive', 'files', 'output', 'snippets', 'widgets']
 

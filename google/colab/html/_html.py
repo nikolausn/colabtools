@@ -23,8 +23,8 @@ import pystache
 
 import six
 
-from google.colab import output
-from google.colab.html import _resources
+from colabtools.google.colab import output
+from colabtools.google.colab.html import _resources
 
 _MSG_CHUNK_SIZE = 1 * 1024 * 1024
 
